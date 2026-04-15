@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
     <title>Chien Nguyen's Blog</title>
 </head>
 
-<body>
+<body class="index_body">
 
-    <section>
-        <h1>My Story</h1>
+    <section class="introduction">
+        <h1 id="header">My Story</h1>
         <p>I was born in Vietnam in a place called <a
                 href="https://en.wikipedia.org/wiki/%C4%90%E1%BB%93ng_Nai_province">Dong
                 Nai</a>.</p>
@@ -20,78 +22,82 @@
                 Distributed System</strong></p>
     </section>
 
-    <section>
+    <section class="Hobbies">
         <h1>
             Hobbies
         </h1>
 
-        <h2>Reading Manga</h2>
-        <p>Top 5</p>
-        <ol>
-            <li>Vagabond</li>
-            <li>Magnus of the Library</li>
-            <li>Ajin</li>
-            <li>Kagurabachi
-            </li>
-            <li>Jutjutsu Kaisen</li>
+        <div class="hobbies-container">
+            <div class="manga-section">
+                <h2>Reading Manga</h2>
+                <p>Top 5</p>
+                <ol>
+                    <li>Vagabond</li>
+                    <li>Magnus of the Library</li>
+                    <li>Ajin</li>
+                    <li>Kagurabachi
+                    </li>
+                    <li>Jutjutsu Kaisen</li>
 
-        </ol>
-
-
-
-        <table>
-            <thead>
-                <tr>
-                    <th scope="col">Favorite Manga (<cite><i>Vagabond</i></cite>)
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <details>
-                            <summary>Why I like Vagabond</summary>
-                            <blockquote>
-                                Because its good<em> Try it!!!</em>.
-                            </blockquote>
-                        </details>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="resources/vagabond.jpg" width="200"
-                            alt="vagabond manga">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <br>
-        <p>Favorite Food/Drink</p>
-        <ul>
-            <li>Com Tam</li>
-            <li>Sushi</li>
-            <li>Chocolate</li>
-            <li>Soy Milk
-            </li>
-            <li>Hu Tuoi Kho</li>
-
-        </ul>
+                </ol>
 
 
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Favorite Manga
+                                (<cite><i>Vagabond</i></cite>)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <details>
+                                    <summary>Why I like Vagabond</summary>
+                                    <blockquote>
+                                        Because its good<em> Try it!!!</em>.
+                                    </blockquote>
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="resources/vagabond.jpg" width="200"
+                                    alt="vagabond manga">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="food-section">
+                <h2>Favorite Food/Drink</h2>
+                <ul>
+                    <li>Com Tam</li>
+                    <li>Sushi</li>
+                    <li>Chocolate</li>
+                    <li>Soy Milk
+                    </li>
+                    <li>Hu Tuoi Kho</li>
+
+                </ul>
+            </div>
+        </div>
 
     </section>
-
-
-    <section>
+    <section class="contact">
         <h1>
             Contact Info
         </h1>
-        <footer>
-            <a href="contact.html">Contact</a>
-            <br>
-            <a href="portfolio.html">Portfolio</a>
-        </footer>
     </section>
+
+    <footer>
+        <a href="contact.html">Contact</a>
+        <br>
+        <a href="portfolio.html">Portfolio</a>
+    </footer>
 
 </body>
 
